@@ -153,13 +153,13 @@
 
         <div class="footer__item">
             <a href="https://api.whatsapp.com/send?phone=573022880083" target="_blank">302 288 0083</a>
-            <a href="mailto:nombreapp@gmail.com">nombreapp@gmail.com</a>
+            <a href="mailto:vakroscolombia@gmail.com">vakroscolombia@gmail.com</a>
         </div>
 
         <div class="footer__item">
             <h3>Información</h3>
-            <a>Preguntas Generales</a>
-            <a>Términos y Condiciones</a>
+            <a href="https://api.whatsapp.com/send?phone=573022880083" target="_blank">Preguntas Generales</a>
+            <a href="https://api.whatsapp.com/send?phone=573022880083" target="_blank">Términos y Condiciones</a>
         </div>
 
         <div class="footer__logo">
