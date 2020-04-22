@@ -16,7 +16,11 @@
         justify-content: center;
         align-items: center;
     }
-    
+
+    .footer__logo{
+        max-width: 120px
+    }
+
     .footer__item{
         margin-bottom: 30px;
     }

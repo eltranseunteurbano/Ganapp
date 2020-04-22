@@ -101,7 +101,7 @@
     @media only screen and (max-width: 768px) {
         .header{
             width: 100%;
-            grid-template: auto / 50px 1fr;
+            grid-template: auto / 120px 1fr;
             justify-content: space-between;
         }
 
