@@ -1,4 +1,4 @@
-<script>
+    <script>
 
     import { db } from '../firebase.js';
     import Swal from 'sweetalert2';

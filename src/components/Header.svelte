@@ -22,6 +22,14 @@
         box-sizing: border-box;
     }
 
+    .header__logo{
+        max-width: 120px;
+    }
+
+    .header__logo a img {
+        fill: white;
+    }
+
     .header__bars{
         display: none;
         flex-direction: column;
@@ -67,6 +75,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items:center;
     }
 
     .header__menu a{
@@ -130,7 +139,7 @@
 
 <header class="header">
 
-    <div class="header__logo"> Logo</div>
+    <div class="header__logo"> <a href="/"> <img src="./Logo.svg" alt="Logo Vakros" > </a></div>
 
     <div class="header__bars">
         <div class="header__bars__icon" on:click="{ () => toggleMenu(!showMenu) }">

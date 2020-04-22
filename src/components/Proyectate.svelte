@@ -1,7 +1,16 @@
 <script>
 
-    let input;
+    let input = 200000;
     let valorFinal = 0;
+
+    const ternera = 5600;
+    const vaca = 18000;
+
+    $: utilidades = ( (input / ternera) * vaca );
+    $: valorFinal = parseInt( ( utilidades * 0.2 ) + input ) ;
+    $: valorMostrar = new Intl.NumberFormat().format(valorFinal) ;
+
+   
 
 </script>
 
@@ -142,14 +151,14 @@
             <div class="Proyectate__info__input">
             
                 <p>Si invierto</p>
-                <input type="number" placeholder="Digita el valor a invertir" bind:value={input}>
+                <input type="number" placeholder="Digita el valor a invertir" bind:value={input} min="200000">
 
             </div>
 
             <div class="Proyectate__info__input">
             
                 <p>Obtengo apróximadamente</p>
-                <div>$ {valorFinal * 2}</div>
+                <div>$ { valorFinal ? valorMostrar : 0 }</div>
             </div>
         
         </article>

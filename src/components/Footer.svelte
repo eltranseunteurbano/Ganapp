@@ -147,7 +147,7 @@
     <article class="footer__content">
     
         <div class="footer__item">
-            <h3>Nombre App</h3>
+            <h3>Vakros</h3>
             <p>Colombia</p>
         </div>
 
@@ -163,7 +163,7 @@
         </div>
 
         <div class="footer__logo">
-            <h1>Logo</h1>
+            <img src="./Logo.svg" alt="Logo Vakros">
         </div>
 
     </article>
